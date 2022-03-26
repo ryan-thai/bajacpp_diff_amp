@@ -1,5 +1,14 @@
 # Ignore list for Eagle, a PCB layout tool
 
+#ignore LTspice Log files and raw files
+**/*.log
+**/*.raw
+**/*.plt
+**/*.fft
+**/*.imp
+**/*.txt
+**/*.csv
+
 # Backup files
 *.s#?
 *.b#?
